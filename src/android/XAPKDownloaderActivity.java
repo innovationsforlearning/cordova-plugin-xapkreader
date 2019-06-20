@@ -14,7 +14,7 @@ import android.os.Messenger;
 import android.content.pm.Signature;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageInfo;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 // <Workaround for Cordova/Crosswalk flickering status bar bug./>
 import android.view.WindowManager;
